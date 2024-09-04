@@ -1,0 +1,71 @@
+.products-1{
+    background-color: white;
+    
+}
+
+.products1-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    
+
+}
+.topic{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 50px;
+    padding-bottom: 50px;
+    
+hr{
+    border: none;
+    height: 3px;
+    width: 200px;
+    background-color: black;
+}
+span{
+    font-weight: 300;
+}
+}
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.box{
+    width: 240px;
+    margin: 40px;
+    background-color: rgb(240, 240, 240);
+    border-radius: 20px;
+}
+.box-image img{
+  padding:10px ;
+  width: 100%;
+  align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url("../../../public/uiimageslow-04.png");
+    background-size: cover;
+    padding-top: 26px;
+h1{
+    color: white;
+    font-size: 26px;
+    letter-spacing: 1px;
+}
+h3{
+    color: white;
+    font-size: 18px;
+    margin-bottom: 19px;
+}
+}
+
+

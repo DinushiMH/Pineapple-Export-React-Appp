@@ -1,0 +1,87 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(240, 240, 240);
+
+}
+.topic{
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding-bottom: 10px;
+    
+hr{
+    border: none;
+    height: 3px;
+    width: 130px;
+    background-color: black;
+}
+span{
+    font-weight: 300;
+}
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    padding-bottom: 100px;
+    width: 1200px;
+    margin: 0 auto;
+.mission{
+    width: 49%;
+    
+}
+.missionimg{
+    background: url(../../../public/uiimageslow-08.png),#fba53f;
+    background-size: cover;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.vissionimg{
+    background: url(../../../public/uiimageslow-02.png),#a6cf67;
+    background-size: cover;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.mission-1{
+    display: flex;
+    gap: 30px;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+
+    img{
+        width: 80px;
+        height: 80px;
+    }
+
+    h2{
+        font-size: 35px;
+        color: white;
+        letter-spacing: 2px;
+        padding-top: 20px;
+    }
+}
+
+.mission-2{
+
+    p{
+    font-size: 20px;
+    color: white;
+    padding: 40px 60px 0 50px;
+   }
+
+   img{
+    position: relative;
+    width: 180px;
+    left: 350px;
+   }
+}
+.pneimg{
+    height: 184px;
+}
+}
